@@ -3,31 +3,33 @@ body {
 }
 
 .light-blue {
-	background: #208ee5;
+	background: #3399cc;
+	min-height: 42px;
+	border-bottom: 1px solid #208ce3; /*change for web safe colors later? / change background to image to difference b/t border and bg)*/
+	width: 100%;
 }
 
 .navy {
+	border-top: 1px solid #124169;
 	background: #174972;
-	min-height: 50px;
+	min-height: 110px;
+        width: 100%;
 }
 
-.border {
+.search {
 	border: 1px solid black;
 }
 
 .dashboard {
 	background: #33cc66;
-	border-radius: 10px;
-	margin-top: 10px;
-	min-height: 50px;
+	border-radius: 3px;
+	margin-top: 6px;
+	min-height: 75px;
+	color: #fff;
 }
 
-.black {
-	background: #000;
-}
-
-.white {
-	background: #fff;
+.dashtext {
+	font: 36pt myriad;
 }
 
 .graph {
@@ -48,7 +50,13 @@ body {
 	border-bottom: 1px solid #eeeeee;
 	background: #fff;
 	margin-left: -2px;
+	min-height: 50px;
 }
+
+.border {
+	border-left: 1px solid #e9e9e9;
+	border-bottom: 1px solid #e9e9e9;
+	}
 
 .announcements-title {
 	color: #fe7f13;
@@ -57,4 +65,30 @@ body {
 	border-bottom: 1px solid #eeeeee;
 	background: #fff;
 	margin-right: -2px;
+	min-height: 50px;
+}
+
+.tasks-section {
+	min-height: 300px;
+}
+
+.analytics {
+	min-height: 405px;
+}
+
+.recommendations {
+	min-height: 554px;
+}
+
+.advertisements {
+	min-height: 220px;
+	background: #3399ff;
+}
+
+.dyk-banner {
+	min-height: 179px;
+}
+
+.contacts {
+	min-height: 269px;
 }
