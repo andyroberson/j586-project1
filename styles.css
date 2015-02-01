@@ -9,6 +9,12 @@ body {
 	width: 100%;
 }
 
+.mini {
+	text-align: right;
+	color: #fff;
+	font: 15px arial;
+}
+
 .navy {
 	border-top: 1px solid #124169;
 	background: #174972;
@@ -18,18 +24,23 @@ body {
 
 .search {
 	border: 1px solid black;
+	min-height: 33px;
+	background: #fff;
+	border-radius: 3px;
+	border: 1px solid #33cc66;
 }
 
 .dashboard {
 	background: #33cc66;
 	border-radius: 3px;
-	margin-top: 6px;
+	margin-top: 15px;
+	margin-bottom: 15px;
 	min-height: 75px;
 	color: #fff;
 }
 
-.dashtext {
-	font: 36pt myriad;
+.dash-text {
+	font: 36pt arial;
 }
 
 .graph {
@@ -43,6 +54,10 @@ body {
 	border: 1px solid #eeeeee;
 	border-radius: 10px;
 }
+
+/*.margin {
+	margin-left: 5px;
+}*/
 
 .announcements, .arrows {
 	border-left: 1px solid #eeeeee;
@@ -70,6 +85,15 @@ body {
 
 .tasks-section {
 	min-height: 300px;
+	background: #fff;
+}
+
+.tasks-left, .tasks-right {
+	min-height: 60px;	
+}
+
+.border-bottom {
+	border-bottom: solid 1px #000; /* change to e9e9e9 later */
 }
 
 .analytics {

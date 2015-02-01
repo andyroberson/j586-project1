@@ -1,0 +1,113 @@
+.go-icon-and-shadow, .green-go-shadow, .people-icon-and-shadow, .green-people-shadow, .messages-and-shadow, .green-messages-shadow, .tag-icon-and-shadow, .green-tag-shadow, .paper-and-shadow, .green-paper-shadow, .graph-and-shadow, .green-chart-shadow, .dark-blue-stripe-bg, .top-menu-help, .top-menu-settings, .search-magnify-icon, .triangle-selected, .top-menu-bg{
+	background: url(top-sprites.png) no-repeat;
+	display: inline-block;
+}
+
+.go-icon-and-shadow{
+	background-position: 0 0;
+	width: 60px;
+	height: 73px;
+}
+
+.green-go-shadow{
+	background-position: 0 -75px ;
+	width: 60px;
+	height: 73px;
+}
+
+.people-icon-and-shadow{
+	background-position: -72px -8px ;
+	width: 62px;
+	height: 64px;
+}
+
+.green-people-shadow{
+	background-position: -72px -84px ;
+	width: 62px;
+	height: 64px;
+}
+
+.messages-and-shadow{
+	background-position: -147px -7px ;
+	width: 60px;
+	height: 65px;
+}
+
+.green-messages-shadow{
+	background-position: -148px -85px ;
+	width: 60px;
+	height: 65px;
+}
+
+.tag-icon-and-shadow{
+	background-position: -216px -6px ;
+	width: 60px;
+	height: 69px;
+}
+
+.green-tag-shadow{
+	background-position: -217px -84px ;
+	width: 60px;
+	height: 69px;
+}
+
+.paper-and-shadow{
+	background-position: -283px -4px ;
+	width: 60px;
+	height: 70px;
+}
+
+.green-paper-shadow{
+	background-position: -283px -81px ;
+	width: 60px;
+	height: 70px;
+}
+
+.graph-and-shadow{
+	background-position: -359px -5px ;
+	width: 60px;
+	height: 66px;
+}
+
+.green-chart-shadow{
+	background-position: -355px -82px ;
+	width: 60px;
+	height: 66px;
+}
+
+.dark-blue-stripe-bg{
+	background-position: 0 -180px ;
+	width: 374px;
+	height: 110px;
+}
+
+.top-menu-help{
+	background-position: -620px 0;
+	width: 20px;
+	height: 20px;
+}
+
+.top-menu-settings{
+	background-position: -551px -2px ;
+	width: 20px;
+	height: 20px;
+}
+
+.search-magnify-icon{
+	background-position: -610px -120px ;
+	width: 23px;
+	height: 22px;
+}
+
+.triangle-selected{
+	background-position: -63px -412px ;
+	width: 40px;
+	height: 10px;
+}
+
+.top-menu-bg{
+	background-position: -277px -369px ;
+	width: 115px;
+	height: 45px;
+}
+
