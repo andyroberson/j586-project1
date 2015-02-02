@@ -1,0 +1,162 @@
+.analytics-graph, .announcement-left-arrow, .announcement-right-arrow, .gray-person-hover, .blue-person-icon, .tasks-settings-icon, .right-blue-banner-tail, .left-blue-banner-tail, .down-arrow-menu, .customer-orange-person, .customer-orange-graph, .green-person-contact, .orange-check, .contacts-green-graph, .facebook-analytics, .foursquare-analytics, .google-plus-analytics, .twitter-analytics, .dyk-left-arrow, .dyk-right-arrow, .channels-pie-graph, .referrals-pie-graph, .recommendations-green-check, .recommendations-light-icon, .recommendations-article-icon, .spacer{
+	background: url(sprites-body.png) no-repeat;
+	display: inline-block;
+}
+
+.analytics-graph{
+	background-position: 0 0;
+	width: 420px;
+	height: 187px;
+}
+
+.announcement-left-arrow{
+	background-position: 0 -201px ;
+	width: 22px;
+	height: 22px;
+}
+
+.announcement-right-arrow{
+	background-position: -27px -201px ;
+	width: 22px;
+	height: 22px;
+}
+
+.gray-person-hover{
+	background-position: 0 -232px ;
+	width: 20px;
+	height: 20px;
+}
+
+.blue-person-icon{
+	background-position: -27px -232px ;
+	width: 20px;
+	height: 20px;
+}
+
+.tasks-settings-icon{
+	background-position: -57px -232px ;
+	width: 20px;
+	height: 20px;
+	margin-top: 15px;
+}
+
+.right-blue-banner-tail{
+	background-position: -26px -268px ;
+	width: 15px;
+	height: 40px;
+}
+
+.left-blue-banner-tail{
+	background-position: 0 -268px ;
+	width: 15px;
+	height: 40px;
+}
+
+.down-arrow-menu{
+	background-position: -475px 0;
+	width: 10px;
+	height: 6px;
+}
+
+.customer-orange-person{
+	background-position: -99px -211px ;
+	width: 78px;
+	height: 82px;
+}
+
+.customer-orange-graph{
+	background-position: -188px -211px ;
+	width: 192px;
+	height: 82px;
+}
+
+.green-person-contact{
+	background-position: -397px -214px ;
+	width: 78px;
+	height: 82px;
+}
+
+.orange-check{
+	background-position: -515px 0;
+	width: 22px;
+	height: 21px;
+}
+
+.contacts-green-graph{
+	background-position: -493px -209px ;
+	width: 192px;
+	height: 82px;
+}
+
+.facebook-analytics{
+	background-position: -451px -40px ;
+	width: 70px;
+	height: 16px;
+}
+
+.foursquare-analytics{
+	background-position: -450px -93px ;
+	width: 79px;
+	height: 16px;
+}
+
+.google-plus-analytics{
+	background-position: -451px -68px ;
+	width: 62px;
+	height: 16px;
+}
+
+.twitter-analytics{
+	background-position: -452px -120px ;
+	width: 54px;
+	height: 16px;
+}
+
+.dyk-left-arrow{
+	background-position: -656px 0;
+	width: 22px;
+	height: 50px;
+}
+
+.dyk-right-arrow{
+	background-position: -686px 0;
+	width: 22px;
+	height: 50px;
+}
+
+.channels-pie-graph{
+	background-position: -560px 0;
+	width: 80px;
+	height: 80px;
+}
+
+.referrals-pie-graph{
+	background-position: -558px -96px ;
+	width: 80px;
+	height: 80px;
+}
+
+.recommendations-green-check{
+	background-position: -2px -342px ;
+	width: 22px;
+	height: 20px;
+}
+
+.recommendations-light-icon{
+	background-position: -47px -343px ;
+	width: 14px;
+	height: 23px;
+}
+
+.recommendations-article-icon{
+	background-position: -85px -342px ;
+	width: 19px;
+	height: 23px;
+}
+
+.spacer{
+	background-position: -163px -326px ;
+	width: 1px;
+	height: 30px;
+}
+
