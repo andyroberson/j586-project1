@@ -3,76 +3,82 @@
 	display: inline-block;
 }
 
-.go-icon-and-shadow{
+.go-icon-and-shadow:hover{
 	background-position: 0 0;
 	width: 60px;
 	height: 73px;
 }
 
-.green-go-shadow{
+.go-icon-and-shadow{
 	background-position: 0 -75px ;
 	width: 60px;
 	height: 73px;
+	margin: 10px;
 }
 
-.people-icon-and-shadow{
+.people-icon-and-shadow:hover{
 	background-position: -72px -8px ;
 	width: 62px;
 	height: 64px;
 }
 
-.green-people-shadow{
+.people-icon-and-shadow{
 	background-position: -72px -84px ;
 	width: 62px;
 	height: 64px;
+	margin:10px;
 }
 
-.messages-and-shadow{
+.messages-and-shadow:hover{
 	background-position: -147px -7px ;
 	width: 60px;
 	height: 65px;
 }
 
-.green-messages-shadow{
+.messages-and-shadow{
 	background-position: -148px -85px ;
 	width: 60px;
 	height: 65px;
+	margin: 10px;
 }
 
-.tag-icon-and-shadow{
+.tag-icon-and-shadow:hover{
 	background-position: -216px -6px ;
 	width: 60px;
 	height: 69px;
 }
 
-.green-tag-shadow{
+.tag-icon-and-shadow{
 	background-position: -217px -84px ;
 	width: 60px;
 	height: 69px;
+	margin: 10px;
 }
 
-.paper-and-shadow{
+.paper-and-shadow:hover{
 	background-position: -283px -4px ;
 	width: 60px;
 	height: 70px;
 }
 
-.green-paper-shadow{
+.paper-and-shadow{
 	background-position: -283px -81px ;
 	width: 60px;
 	height: 70px;
+	margin: 10px;
 }
 
-.graph-and-shadow{
+.graph-and-shadow:hover{
 	background-position: -359px -5px ;
 	width: 60px;
 	height: 66px;
 }
 
-.green-chart-shadow{
+.graph-and-shadow{
 	background-position: -355px -82px ;
 	width: 60px;
 	height: 66px;
+	margin: 10px;
 }
 
 .dark-blue-stripe-bg{
@@ -85,12 +91,32 @@
 	background-position: -620px 0;
 	width: 20px;
 	height: 20px;
+	margin-top: 5px;
+	padding: 10px;
 }
+
+.padding-top {
+	margin-top: 10px;
+	margin-bottom: 12px;
+	display: inline-block;
+}
+
+.padding-icon {
+	margin-top: 8px;
+	margin-bottom: 8px;
+	display: inline;
+}
+
+/*.icon-padding {
+	padding-top: 2px;
+	diplay: inline-block;
+}*/
 
 .top-menu-settings{
 	background-position: -551px -2px ;
 	width: 20px;
 	height: 20px;
+	padding: 10px;
 }
 
 .search-magnify-icon{
@@ -103,6 +129,9 @@
 	background-position: -63px -412px ;
 	width: 40px;
 	height: 10px;
+	margin-left: -20px;
+	bottom: 0px;
+	position: absolute;
 }
 
 .top-menu-bg{
