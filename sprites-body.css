@@ -22,12 +22,16 @@
 }
 
 .gray-person-hover{
+	margin-top: 4px;
+	margin-left: 3px;
 	background-position: 0 -232px ;
 	width: 20px;
 	height: 20px;
 }
 
 .blue-person-icon{
+	margin-top: 4px;
+	margin-left: 3px;
 	background-position: -27px -232px ;
 	width: 20px;
 	height: 20px;

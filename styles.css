@@ -138,13 +138,21 @@ body {
 .tasks-left {
 	min-height: 60px;
 	padding-top: 10px;
-	font: 21pt arial;
+	font: 20pt arial;;
+}
+
+.tasks-text-gray {
+        color: #cccccc;	
+}
+
+.tasks-text-blue {
+	color: #2498f4;
 }
 
 .tasks-right {
-	float: right;
 	min-height: 60px;
 	padding-top: 10px;
+	padding-right: 20px;
 }
 
 .tasks-title {
@@ -155,11 +163,55 @@ body {
 
 .number-gray {
 	background: #cccccc;
-	height: 20px;
-	width: 20px;
+	height: 30px;
+	width: 30px;
 	border-radius: 20px;
 	color: #fff;
 	font: 18pt arial;
+	padding-right: 2px;
+	padding-top: 3px;
+	display: inline-block;
+	text-align: center;
+}
+
+.number-green {
+	background: #32cc66;
+	height: 30px;
+	width: 30px;
+	border-radius: 20px;
+	color: #fff;
+	font: 18pt arial;
+	padding-right: 2px;
+	padding-top: 3px;
+	display: inline-block;
+	text-align: center;
+}
+
+.number-gren:hover {
+	background: #cccccc;
+}
+
+.tasks-people-gray {
+	width: 60px;
+	height: 30px;
+	border: solid 1px #cccccc;
+	font: 16pt arial;
+	color: #cccccc;
+	border-radius: 3px;
+	margin-left: -35px;
+	margin-right: 20px;
+}
+
+.tasks-people-number {
+	font: 16pt arial;
+	color: #cccccc;
+	float: right;
+	padding-right: 2px;
+	padding-top: 3px;
+}
+
+.tasks-people-number-blue {
+	color: #2498f4;
 }
 
 .border-bottom {
