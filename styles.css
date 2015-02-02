@@ -47,11 +47,13 @@ body {
 	background-image: url("dark-blue-bg-left-and-right.png");
 	background: linear-gradient(to right, rgba(19, 70, 112, 1), rgba(19, 70, 112, .8), rgba(19, 70, 112, .1));
 	min-height: 110px;
+	min-width: 0px;
 }
 
 .right-opacity {
 	background: linear-gradient(to left, rgba(19, 70, 112, 1), rgba(19, 70, 112, .8), rgba(19, 70, 112, .1));
 	min-height: 110px;
+	min-width: 0px;
 }
 
 .search {
@@ -74,7 +76,7 @@ body {
 }
 
 .dash-text {
-	font-size: 36pt;
+	font-size: 2.5em; /*36pt*/
 	font-family: myriad pro;
 	font-type: regular;
 	padding-top: 10px;
