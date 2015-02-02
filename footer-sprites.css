@@ -1,0 +1,122 @@
+.car-avatar, .channels-spacer, .facebook-color, .facebook-gray, .footer-bg, .footer-blue-arrow-up, .foursquare-color, .foursquare-gray, .icon-check-with-reflect, .light-with-reflect, .reco-article-with-reflect, .twitter-color, .twitter-gray, .youtube-color, .youtube-gray, .advert1-no-bg, .advert2-no-bg, .advert3-no-bg{
+	background: url(footer-sprites.png) no-repeat;
+	display: inline-block;
+}
+
+.car-avatar{
+	background-position: 0 0;
+	width: 40px;
+	height: 40px;
+	margin-top: -5px;
+	float: left;
+}
+
+.channels-spacer{
+	background-position: -3px -45px ;
+	width: 3px;
+	height: 240px;
+}
+
+.facebook-gray:hover{
+	background-position: -58px -2px ;
+	width: 16px;
+	height: 16px;
+}
+
+.facebook-gray{
+	background-position: -80px -2px ;
+	width: 16px;
+	height: 16px;
+}
+
+.footer-bg{
+	background-position: -19px -53px ;
+	width: 111px;
+	height: 60px;
+}
+
+.footer-blue-arrow-up{
+	background-position: -285px -64px ;
+	width: 14px;
+	height: 9px;
+	float: right;
+}
+
+.foursquare-gray:hover{
+	background-position: -122px -3px ;
+	width: 16px;
+	height: 16px;
+}
+
+.foursquare-gray{
+	background-position: -146px -3px ;
+	width: 16px;
+	height: 16px;
+}
+
+.icon-check-with-reflect{
+	background-position: -241px -58px ;
+	width: 22px;
+	height: 32px;
+}
+
+.light-with-reflect{
+	background-position: -203px -58px ;
+	width: 14px;
+	height: 35px;
+}
+
+.reco-article-with-reflect{
+	background-position: -158px -55px ;
+	width: 21px;
+	height: 37px;
+}
+
+.twitter-gray:hover{
+	background-position: -182px -3px ;
+	width: 16px;
+	height: 16px;
+}
+
+.twitter-gray{
+	background-position: -205px -4px ;
+	width: 16px;
+	height: 16px;
+}
+
+.youtube-gray:hover{
+	background-position: -243px -2px ;
+	width: 16px;
+	height: 16px;
+}
+
+.youtube-gray{
+	background-position: -263px -2px ;
+	width: 16px;
+	height: 16px;
+}
+
+.advert1-no-bg{
+	background-position: -377px 0;
+	width: 263px;
+	height: 150px;
+	left: 0px;
+	position: absolute;
+}
+
+.advert2-no-bg{
+	background-position: -8px -150px ;
+	width: 268px;
+	height: 171px;
+	bottom: 0px;
+	position: absolute;
+	left: 6px;
+}
+
+.advert3-no-bg{
+	background-position: -326px -162px ;
+	width: 263px;
+	height: 160px;
+	right: 0px;
+	position: absolute;
+}

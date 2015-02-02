@@ -1,10 +1,11 @@
 body {
 	background: #fff;
+	font-family: myriad pro;
 }
 
 .light-blue {
 	background: #3399cc;
-	min-height: 42px;
+	height: 42px;
 	border-bottom: 1px solid #208ce3; /*change for web safe colors later? / change background to image to difference b/t border and bg)*/
 	width: 100%;
 	background: url("top-menu-bg.png");
@@ -22,20 +23,24 @@ body {
 .mini {
 	text-align: right;
 	color: #fff;
-	font: 15px arial;
-	display: inline-block;
+	font-size: 13pt;
+	font-type: regular;
+	display: inline;
+	margin-top: -8px;
+	letter-spacing: .5px;
 }
 
 .navy {
 	border-top: 1px solid #124169;
 	background: url("dark-blue-stripe-bg.png");
-	min-height: 110px;
+	height: 110px;
         width: 100%;
 }
 
 .icons {
 	padding-top: 15px;
 	text-align: center;
+	float: left;
 }
 
 .left-opacity {
@@ -69,7 +74,9 @@ body {
 }
 
 .dash-text {
-	font: 36pt arial;
+	font-size: 36pt;
+	font-family: myriad pro;
+	font-type: regular;
 	padding-top: 10px;
 }
 
@@ -87,7 +94,8 @@ body {
 }
 
 .channels-text {
-	font: 13pt arial;
+	font-size: 13pt;
+	font-family: myriad pro;
 	color: #999;
 	text-align: left;
 	padding-top: 10px;
@@ -95,7 +103,7 @@ body {
 }
 
 .graph-activity {
-	font: 13pt arial;
+	font: 13pt;
 	color: #999;
 }
 
@@ -127,7 +135,7 @@ body {
 	background: #f7f7f7;
 	padding-top: 10px;
 	padding-left: 25px;
-	padding-right: 20px;
+	padding-right: 25px;
 	margin-top: 10px;
 	border-radius: 10px;
 	margin-left: -5px;
@@ -143,7 +151,7 @@ body {
 	border-top: 1px solid #eeeeee;
 	border-bottom: 1px solid #eeeeee;
 	background: #fff;
-	margin-left: -2px;
+	/*margin-left: -2px;*/
 	min-height: 50px;
 	padding-top: 12px;
 }
@@ -154,7 +162,7 @@ body {
 	border-bottom: 1px solid #eeeeee;
 	border-right: 1px solid #eeeeee;
 	background: #fff;
-	margin-left: -2px;
+	/*margin-left: -2px;*/
 	min-height: 50px;
 	padding-top: 12px;
 	text-align: center;
@@ -171,9 +179,12 @@ body {
 	border-top: 1px solid #eeeeee;
 	border-bottom: 1px solid #eeeeee;
 	background: #fff;
-	margin-right: -2px;
+	/*margin-right: -2px;*/
 	min-height: 50px;
 	padding-top: 12px;
+	font-family: myriad pro;
+	font-size: 12pt;
+	font-type: regular;
 }
 
 .tasks-section {
@@ -184,10 +195,14 @@ body {
 .tasks-left {
 	min-height: 60px;
 	padding-top: 10px;
-	font: 20pt arial;;
+	font-size: 20pt;
 }
 
 .tasks-text-gray {
+        color: #cccccc;	
+}
+
+.tasks-text-blue:hover {
         color: #cccccc;	
 }
 
@@ -202,7 +217,8 @@ body {
 }
 
 .tasks-title, .recommendations-title, .analytics-title {
-	font: 32pt arial;
+	font-size: 30pt;
+	font-family: myriad pro;
 	color: #2498f4;
 	padding-top: 10px;
 }
@@ -213,7 +229,7 @@ body {
 	width: 30px;
 	border-radius: 20px;
 	color: #fff;
-	font: 18pt arial;
+	font-size: 18pt;
 	padding-right: 2px;
 	padding-top: 3px;
 	display: inline-block;
@@ -226,7 +242,7 @@ body {
 	width: 30px;
 	border-radius: 20px;
 	color: #fff;
-	font: 18pt arial;
+	font-size: 18pt;
 	padding-right: 2px;
 	padding-top: 3px;
 	display: inline-block;
@@ -241,7 +257,7 @@ body {
 	width: 60px;
 	height: 30px;
 	border: solid 1px #cccccc;
-	font: 16pt arial;
+	font-size: 16pt;
 	color: #cccccc;
 	border-radius: 3px;
 	margin-left: -35px;
@@ -249,7 +265,7 @@ body {
 }
 
 .tasks-people-number {
-	font: 16pt arial;
+	font-size: 16pt;
 	color: #cccccc;
 	float: right;
 	padding-right: 2px;
@@ -292,12 +308,12 @@ body {
 }
 
 .reco-text-type {
-	font: 10pt arial;
+	font-size: 10pt;
 	line-height: 10pt;
 }
 
 .reco-text-title {
-	font: 16pt arial;
+	font-size: 16pt;
 	line-height: 17pt;
 }
 
@@ -323,13 +339,28 @@ input[type=checkbox] {
 
 .advertisements {
 	min-height: 220px;
+	width: 100%;
 	background: #3399ff;
+	text-align: center;
+	margin-bottom: 20px;
+	display: inline-block;
 }
 
 .dyk-banner {
 	min-height: 179px;
+	text-align: center;
+	padding: 25px;
 }
 
+.banner {
+        width: 590px;
+	height: 140px;
+	background: #2498f4;
+	border-radius: 3px;
+	display: inline-block;
+	padding: 40px;
+
+}
 .contact-box {
 	background: #fff;
 	border: solid 1px #f2f2f2;
@@ -348,11 +379,76 @@ input[type=checkbox] {
 	background: #2394ee;
 	margin-top: -10px;
 	position:absolute;
-	font: 21pt arial;
+	font-size: 21pt;
 	color: #fff;
+}
+
+.small-dyk-text {
+	font-family: myriad pro;
+	font-size: 13pt;
+	font-type: strong;
+	text-transform: uppercase;
+	text-align: left;
+	padding-left: 5px;
+}
+
+.dyk-text {
+	font-family: myriad pro;
+	font-size: 15pt;
+	padding-left: 5px;
+	font-type: strong;
+	text-align: left;
+	
 }
 
 .contacts {
 	min-height: 269px;
 	text-align: center;
+}
+
+.advert {
+	width: 280px;
+	height: 160px;
+	background: #fff;
+	border-radius: 3px;
+	display: inline-block;
+	margin-top: 30px;
+	margin: 40px;
+}
+
+.footer {
+	margin-top: 20px;
+	padding-top: 20px;
+	height: 60px;
+	background: url('footer-bg.png');
+}
+
+.footer-separator {
+	background: url("footer-separator.png");
+	height: 50px;
+	width: 1px;
+	margin-top: -10px;
+	float: right;
+}
+
+.footer-log {
+	padding-top: 30px;
+	display: inline;
+	line-height: 14pt;
+}
+
+.footer-txt {
+	padding: 2px;
+	font-size: 14pt;
+	color: #999999;
+	padding-left: 12px;
+}
+
+.center-ads {
+	text-align: center;
+}
+
+.footer-pad {
+	padding-left: 15px;
+	padding-right: 15px;
 }

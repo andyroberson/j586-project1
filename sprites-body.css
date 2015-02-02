@@ -141,15 +141,20 @@
 	background-position: -656px 0;
 	width: 22px;
 	height: 50px;
-	margin-left: 10px;
-	margin-right: 10px;
-	margin-left: 10px;
+	margin-top: 5px;
+	margin-left: -297px;
+	position: absolute;
 }
 
 .dyk-right-arrow{
 	background-position: -686px 0;
 	width: 22px;
 	height: 50px;
+	right: 0px;
+	margin-top: -48px;
+	margin-right: 64px;
+	position: absolute;
+	
 }
 
 .channels-pie-graph{
@@ -186,6 +191,10 @@
 	background-position: -163px -326px ;
 	width: 1px;
 	height: 30px;
-	padding-top: 20px;
+        margin-top, margin-bottom: 10px;
+	margin-left, margin-right: 9px;
+	position: relative;
+	top: 8px;
+	
 }
 
