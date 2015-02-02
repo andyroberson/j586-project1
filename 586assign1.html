@@ -22,7 +22,9 @@
 					<div class="col-md-2"></div>
 					<div class="col-md-8 mini">
 					    <div class="padding-top">MINI of Raleigh</div>
-					    <div class="padding-icon"><div class="top-menu-help"></div> 
+					    <div class="spacer"></div>
+					    <div class="padding-icon"><div class="top-menu-help"></div>
+					    <div class="spacer"></div>
 					    <div class="top-menu-settings"></div>
 					    </div>
 					</div>
@@ -182,9 +184,38 @@
 					<div class="col-md-8 border">
 						<div class="row analytics">
 							<div class="col-md-12 analytics-title">Analytics</div>
-							<div class="col-md-9 graph">graph image</div>
-							<div class="col-md-3 graph channels">channels</div>
-							<div class="col-md-12 social-icons">social</div>
+							
+							<div class="col-md-12 graph-channel-pad">
+							<div class="col-md-9 graph">
+							  <div class="col-md-6 graph-activity">ACTIVITY</div>
+							  <div class="col-md-6 graph-dropdown">
+							    <select>
+								<option value="date">06/28/11 - 07/21/11</option>
+								<option value="dead">this project killin me</option>
+							    </select>
+							  </div>
+							  <div class="col-md-12 graph-image">
+							    
+							      <img src="analytics-graph.png" height="223px" width="500px">
+							    
+							  </div>
+							</div>
+							<div class="col-md-3 channels">
+							  <div class="channels-text">CHANNELS</div>
+							  <div class="channels-pie-graph"></div>
+							  <div class="channels-text">REFERRALS</div>
+							  <div class="referrals-pie-graph"></div>
+							</div>
+							</div>
+							
+							<div class="col-md-12 social-icons">
+							  <form action="">
+							    <input type="checkbox" name="facebook" class="check-padding"> <div class="facebook-analytics"></div>
+							    <input type="checkbox" name="twitter" class="check-padding"> <div class="twitter-analytics"></div>
+							    <input type="checkbox" name="foursquare" class="check-padding"> <div class="foursquare-analytics"></div>
+							    <input type="checkbox" name="google" class="check-padding"> <div class="google-plus-analytics"></div>
+							  </form>
+							</div>
 						</div>
 						
 						<!--contacts-->

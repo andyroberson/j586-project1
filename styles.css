@@ -73,8 +73,54 @@ body {
 	padding-top: 10px;
 }
 
+.graph-channel-pad {
+	padding-top: 30px;
+}
+
 .graph {
-	height: 150px;
+	min-height: 240px;
+}
+
+.channels {
+	min-height: 240px;
+	text-align: center;
+}
+
+.channels-text {
+	font: 13pt arial;
+	color: #999;
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.graph-activity {
+	font: 13pt arial;
+	color: #999;
+}
+
+.graph-dropdown {
+	margin-top: -7px;
+	text-align: right;
+}
+
+.graph-dropdown select {
+	border: 1px solid #dddddd;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	-webkit-appearance: none;  /*Removes default chrome and safari style*/
+	-moz-appearance: none; /* Removes Default Firefox style*/
+	background: url('down-arrow-menu.png') no-repeat;  /*Adds background-image*/
+	background-position: 150px 13px;  /*Position of the background-image*/
+	width: 170px; /*Width of select dropdown to give space for arrow image*/
+	text-indent: 0.01px; /* Removes default arrow from firefox*/
+	text-overflow: "";);
+}
+
+.graph-image {
+	padding-top: 10px;
 }
 
 .body {
@@ -155,7 +201,7 @@ body {
 	padding-right: 20px;
 }
 
-.tasks-title, .recommendations-title {
+.tasks-title, .recommendations-title, .analytics-title {
 	font: 32pt arial;
 	color: #2498f4;
 	padding-top: 10px;
@@ -254,6 +300,24 @@ body {
 	font: 16pt arial;
 	line-height: 17pt;
 }
+
+.social-icons {
+	padding-top: 35px;
+	text-align: center;
+}
+
+.check-padding{
+        margin:20px;
+        padding:5px;
+}
+
+input[type=checkbox] {
+      /* All browsers except webkit*/
+      transform: scale(1.5);
+
+      /* Webkit browsers*/
+      -webkit-transform: scale(1.5);
+    }
 
 .advertisements {
 	min-height: 220px;
