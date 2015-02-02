@@ -155,7 +155,7 @@ body {
 	padding-right: 20px;
 }
 
-.tasks-title {
+.tasks-title, .recommendations-title {
 	font: 32pt arial;
 	color: #2498f4;
 	padding-top: 10px;
@@ -215,7 +215,11 @@ body {
 }
 
 .border-bottom {
-	border-bottom: solid 1px #000; /* change to e9e9e9 later */
+	border-bottom: solid 1px #e9e9e9; /* change to e9e9e9 later */
+}
+
+.reco-border-bottom {
+	border-bottom: dotted 1px #e9e9e9;
 }
 
 .analytics {
@@ -225,6 +229,30 @@ body {
 
 .recommendations {
 	min-height: 554px;
+}
+
+.reco-icon {
+	padding-top: 15px;
+	float: left;
+	min-height: 60px;
+	padding-left: -10px;
+}
+
+.reco-text {
+	padding-top: 15px;
+	float: right;
+	min-height: 60px;
+	padding-bottom: 6px;
+}
+
+.reco-text-type {
+	font: 10pt arial;
+	line-height: 10pt;
+}
+
+.reco-text-title {
+	font: 16pt arial;
+	line-height: 17pt;
 }
 
 .advertisements {
