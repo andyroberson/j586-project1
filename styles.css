@@ -156,6 +156,7 @@ body {
 	/*margin-left: -2px;*/
 	min-height: 50px;
 	padding-top: 12px;
+	color: #777777;
 }
 
 .arrows {
@@ -207,16 +208,14 @@ body {
 	font-size: 20pt;
 }
 
-.tasks-text-gray {
-        color: #cccccc;	
+.tasks-text-gray, .tasks-text-blue:hover, .tasks-text-gray a:link, a:active, a:visited{
+        color: #cccccc;
+	font-size: 20pt;
 }
 
-.tasks-text-blue:hover {
-        color: #cccccc;	
-}
-
-.tasks-text-blue {
+.tasks-text-blue, .tasks-text-blue a:link, a:active, a:visited {
 	color: #2498f4;
+	font-size: 20pt;
 }
 
 .tasks-right {
@@ -232,7 +231,7 @@ body {
 	padding-top: 10px;
 }
 
-.number-gray {
+.number-gray, .number-green:hover {
 	background: #cccccc;
 	height: 30px;
 	width: 30px;
@@ -258,10 +257,6 @@ body {
 	text-align: center;
 }
 
-.number-gren:hover {
-	background: #cccccc;
-}
-
 .tasks-people-gray {
 	width: 60px;
 	height: 30px;
@@ -283,6 +278,10 @@ body {
 
 .tasks-people-number-blue {
 	color: #2498f4;
+}
+
+.task-people-number-blue:hover {
+	color: #cccccc;
 }
 
 .border-bottom {
@@ -321,11 +320,13 @@ body {
 .reco-text-type {
 	font-size: 10pt;
 	line-height: 10pt;
+	color: #777777;
 }
 
-.reco-text-title {
+.reco-text-title, .reco-text-title a:link, a:active, a:visited, a:hover {
 	font-size: 16pt;
 	line-height: 17pt;
+	color: #777777;
 }
 
 .social-icons {

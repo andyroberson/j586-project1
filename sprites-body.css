@@ -23,7 +23,7 @@
 	float: right;
 }
 
-.gray-person-hover{
+.gray-person-hover, .blue-person-icon:hover{
 	margin-top: 4px;
 	margin-left: 3px;
 	background-position: 0 -232px ;
