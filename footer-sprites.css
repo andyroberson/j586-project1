@@ -15,6 +15,8 @@
 	background-position: -3px -45px ;
 	width: 3px;
 	height: 240px;
+	margin:0px;
+	float: left;
 }
 
 .facebook-gray:hover{

@@ -3,12 +3,12 @@
 	display: inline-block;
 }
 
-/*.analytics-graph{
+.analytics-graph{
 	background-position: 0 0;
 	width: 420px;
 	height: 187px;
+	margin-top: 40px;
 }
-*/
 
 .announcement-left-arrow{
 	background-position: 0 -201px ;

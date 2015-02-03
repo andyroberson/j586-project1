@@ -9,7 +9,6 @@ body {
 	border-bottom: 1px solid #208ce3; /*change for web safe colors later? / change background to image to difference b/t border and bg)*/
 	width: 100%;
 	background: url("top-menu-bg.png");
-	repeat-x: repeat;
 	padding-top: 2px;
 }
 
@@ -24,7 +23,6 @@ body {
 	text-align: right;
 	color: #fff;
 	font-size: 13pt;
-	font-type: regular;
 	display: inline;
 	margin-top: -8px;
 	letter-spacing: .5px;
@@ -78,7 +76,6 @@ body {
 .dash-text {
 	font-size: 2.5em; /*36pt*/
 	font-family: myriad pro;
-	font-type: regular;
 	padding-top: 10px;
 }
 
@@ -102,6 +99,7 @@ body {
 	text-align: left;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	padding-left: 10px;
 }
 
 .graph-activity {
@@ -126,7 +124,7 @@ body {
 	background-position: 150px 13px;  /*Position of the background-image*/
 	width: 170px; /*Width of select dropdown to give space for arrow image*/
 	text-indent: 0.01px; /* Removes default arrow from firefox*/
-	text-overflow: "";);
+	/*text-overflow: "");*/
 }
 
 .graph-image {
@@ -194,7 +192,6 @@ body {
 	padding-top: 12px;
 	font-family: myriad pro;
 	font-size: 12pt;
-	font-type: regular;
 }
 
 .tasks-section {
@@ -307,7 +304,6 @@ body {
 	padding-top: 15px;
 	float: left;
 	min-height: 60px;
-	padding-left: -10px;
 }
 
 .reco-text {
@@ -383,7 +379,7 @@ input[type=checkbox] {
 	border-radius: 6px;
 	display: inline-block;
 	margin-top: 50px;
-	text-display: center;
+	text-align: center;
 }
 
 .contacts-text {
@@ -406,7 +402,6 @@ input[type=checkbox] {
 	font-family: myriad pro;
 	font-size: .8125em;
 	color: #fff;
-	font-type: strong;
 	text-transform: uppercase;
 	text-align: left;
 	padding-left: 5px;
@@ -417,7 +412,6 @@ input[type=checkbox] {
 	font-size: .9375em;
 	color: #fff;
 	padding-left: 5px;
-	font-type: strong;
 	text-align: left;	
 }
 
@@ -447,6 +441,7 @@ input[type=checkbox] {
 
 .footer a:link, a:active, a:visited {
 	color: #999999;
+	font-size: 14pt;
 }
 
 .footer-separator {
